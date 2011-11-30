@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="3" hostname="MacBean" name="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" tests="48" time="5.728" timestamp="2011-11-30T18:47:16">
+  <properties>
+    <property name="java.vendor" value="Apple Inc." />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="eclipse.pdebuild.templates" value="/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates//" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar" />
+    <property name="env.TMPDIR" value="/var/folders/v_/xnpbyz9s6tzcysjhx10vprfm0000gn/T/" />
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="ant.home" value="/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300" />
+    <property name="java.runtime.version" value="1.6.0_26-b03-383-11A511" />
+    <property name="env.Apple_PubSub_Socket_Render" value="/tmp/launch-KpRuA3/Render" />
+    <property name="env.DISPLAY" value="/tmp/launch-2XEetE/org.x:0" />
+    <property name="user.name" value="boilerup" />
+    <property name="env.USER" value="boilerup" />
+    <property name="env.SHELL" value="/bin/bash" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x1F5:0:0" />
+    <property name="awt.nativeDoubleBuffering" value="true" />
+    <property name="env.APP_ICON_85661" value="../Resources/Eclipse.icns" />
+    <property name="eclipse_home" value="/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse" />
+    <property name="env.PATH" value="/usr/bin:/bin:/usr/sbin:/sbin" />
+    <property name="env.APP_ICON_85074" value="../Resources/Eclipse.icns" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_85661" value="1" />
+    <property name="ant.project.default-target" value="build" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_85074" value="1" />
+    <property name="ant.project.name" value="org.eclipse.lyo.testsuite.server" />
+    <property name="java.version" value="1.6.0_26" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="MacRoman" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="ECLIPSE_HOME" value="/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="50.0" />
+    <property name="compliance.props" value="/Users/boilerup/git/lyo.testsuite/org.eclipse.lyo.testsuite.server/compliance/rtc/compliance.props" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="boilerup" />
+    <property name="ant.file" value="/Users/boilerup/git/lyo.testsuite/org.eclipse.lyo.testsuite.server/compliance/rtc/rtc-compliance-test.xml" />
+    <property name="os.version" value="10.7.1" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="20.1-b02-383" />
+    <property name="ant.library.dir" value="/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib" />
+    <property name="junit.output.dir" value="junit" />
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="apple.awt.CToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_85741" value="1" />
+    <property name="eclipse.pdebuild.scripts" value="/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts//" />
+    <property name="user.home" value="/Users/boilerup" />
+    <property name="target" value="1.6" />
+    <property name="java.specification.vendor" value="Sun Microsystems Inc." />
+    <property name="props" value="config/rtc/rtc-setupv2.properties" />
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/configuration/org.eclipse.osgi/bundles/589/1/.cp" />
+    <property name="java.vendor.url" value="http://www.apple.com/" />
+    <property name="java.vm.vendor" value="Apple Inc." />
+    <property name="gopherProxySet" value="false" />
+    <property name="env.APP_ICON_80827" value="../Resources/Eclipse.icns" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1322678821273 -Declipse.connect.port=60854 -Declipse.pdebuild.home=/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/.// -Declipse.pdebuild.scripts=/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/scripts// -Declipse.pdebuild.templates=/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/templates// -Dant.home=/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile /Users/boilerup/git/lyo.testsuite/org.eclipse.lyo.testsuite.server/compliance/rtc/rtc-compliance-test.xml build provider-test junitreport" />
+    <property name="java.class.path" value="/Users/boilerup/.m2/repository/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-antlr.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-apache-bcel.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-apache-bsf.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-apache-log4j.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-apache-oro.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-apache-regexp.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-apache-resolver.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-apache-xalan2.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-commons-logging.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-commons-net.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-jai.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-javamail.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-jdepend.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-jmf.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-jsch.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-junit.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-junit4.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-launcher.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-netrexx.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-swing.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant-testutil.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/configuration/org.eclipse.osgi/bundles/50/1/.cp/lib/antdebug.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/configuration/org.eclipse.osgi/bundles/50/1/.cp/lib/remote.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/configuration/org.eclipse.osgi/bundles/51/1/.cp/lib/remoteAnt.jar:/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.eclipse.swt.cocoa.macosx.x86_64_3.7.0.v3735b.jar" />
+    <property name="env.APP_ICON_84795" value="../Resources/Eclipse.icns" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
+    <property name="ant.file.type.org.eclipse.lyo.testsuite.server" value="file" />
+    <property name="env.com.apple.java.jvmMode" value="client" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_80827" value="1" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_84795" value="1" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.0" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="env.HOME" value="/Users/boilerup" />
+    <property name="env.JAVA_MAIN_CLASS_85741" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner" />
+    <property name="debuglevel" value="source,lines,vars" />
+    <property name="env.ANT_HOME" value="/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300" />
+    <property name="java.io.tmpdir" value="/var/folders/v_/xnpbyz9s6tzcysjhx10vprfm0000gn/T/" />
+    <property name="eclipse.pdebuild.home" value="/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.eclipse.pde.build_3.7.0.v20110512-1320/.//" />
+    <property name="top" value="/Users/boilerup" />
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/" />
+    <property name="env.SSH_AUTH_SOCK" value="/tmp/launch-DYs6rt/Listeners" />
+    <property name="env.COMMAND_MODE" value="unix2003" />
+    <property name="mrj.build" value="11A511" />
+    <property name="ant.file.org.eclipse.lyo.testsuite.server" value="/Users/boilerup/git/lyo.testsuite/org.eclipse.lyo.testsuite.server/compliance/rtc/rtc-compliance-test.xml" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext" />
+    <property name="user.dir" value="/Users/boilerup/git/lyo.testsuite/org.eclipse.lyo.testsuite.server/compliance/rtc" />
+    <property name="env.com.apple.java.jvmTask" value="JNI.java" />
+    <property name="mrj.version" value="1070.1.6.0_26-383" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/boilerup/git/lyo.testsuite/org.eclipse.lyo.testsuite.server/compliance/rtc" />
+    <property name="env.APP_ICON_85525" value="../Resources/Eclipse.icns" />
+    <property name="ant.java.version" value="1.6" />
+    <property name="ant.core.lib" value="/Users/boilerup/Documents/MyDocuments/My Development/OSLC/eclipse/plugins/org.apache.ant_1.8.2.v20110505-1300/lib/ant.jar" />
+    <property name="source" value="1.6" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.JAVA_STARTED_ON_FIRST_THREAD_85525" value="1" />
+    <property name="java.specification.version" value="1.6" />
+    <property name="ant.project.invoked-targets" value="build,provider-test,junitreport" />
+  </properties>
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="baseUrlIsValid[0]" time="0.299" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="publisherElementsAreValid[0]" time="0.314" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="invalidContentTypeGivesNotSupportedOPTIONAL[0]" time="0.491">
+    <failure message="Expected 406 but received HTTP/1.1 200 OK,Content-type=&apos;invalid/content-type&apos; but received text/xml;charset=UTF-8" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected 406 but received HTTP/1.1 200 OK,Content-type=&apos;invalid/content-type&apos; but received text/xml;charset=UTF-8
+	at org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests.invalidContentTypeGivesNotSupportedOPTIONAL(ServiceProviderXmlTests.java:115)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:32)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:424)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:138)
+</failure>
+  </testcase>
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="misplacedParametersDoNotEffectResponse[0]" time="0.513" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="oAuthElementsAreValid[0]" time="0.173" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="contentTypeIsCMServiceDescription[0]" time="0.472" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasAtMostOneTitle[0]" time="0.087" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasService[0]" time="0.064" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasAtMostOnePublisher[0]" time="0.094" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasValidDetails[0]" time="0.105" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="prefixDefinitionsAreValid[0]" time="0.07" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasAtMostOneOAuthElement[0]" time="0.057" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="eachServiceHasOneDomain[0]" time="0.062" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="creationFactoriesAreValid[0]" time="0.083" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="queryCapabilityBlocksAreValid[0]" time="0.065" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="dialogsAreValid[0]" time="0.068" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="baseUrlIsValid[1]" time="0.05" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="publisherElementsAreValid[1]" time="0.061" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="invalidContentTypeGivesNotSupportedOPTIONAL[1]" time="0.121">
+    <failure message="Expected 406 but received HTTP/1.1 200 OK,Content-type=&apos;invalid/content-type&apos; but received text/xml;charset=UTF-8" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected 406 but received HTTP/1.1 200 OK,Content-type=&apos;invalid/content-type&apos; but received text/xml;charset=UTF-8
+	at org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests.invalidContentTypeGivesNotSupportedOPTIONAL(ServiceProviderXmlTests.java:115)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:32)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:424)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:138)
+</failure>
+  </testcase>
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="misplacedParametersDoNotEffectResponse[1]" time="0.217" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="oAuthElementsAreValid[1]" time="0.051" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="contentTypeIsCMServiceDescription[1]" time="0.098" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasAtMostOneTitle[1]" time="0.052" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasService[1]" time="0.054" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasAtMostOnePublisher[1]" time="0.05" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasValidDetails[1]" time="0.076" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="prefixDefinitionsAreValid[1]" time="0.064" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasAtMostOneOAuthElement[1]" time="0.049" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="eachServiceHasOneDomain[1]" time="0.061" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="creationFactoriesAreValid[1]" time="0.056" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="queryCapabilityBlocksAreValid[1]" time="0.107" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="dialogsAreValid[1]" time="0.066" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="baseUrlIsValid[2]" time="0.042" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="publisherElementsAreValid[2]" time="0.113" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="invalidContentTypeGivesNotSupportedOPTIONAL[2]" time="0.108">
+    <failure message="Expected 406 but received HTTP/1.1 200 OK,Content-type=&apos;invalid/content-type&apos; but received text/xml;charset=UTF-8" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Expected 406 but received HTTP/1.1 200 OK,Content-type=&apos;invalid/content-type&apos; but received text/xml;charset=UTF-8
+	at org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests.invalidContentTypeGivesNotSupportedOPTIONAL(ServiceProviderXmlTests.java:115)
+	at org.eclipse.ant.internal.launching.remote.EclipseDefaultExecutor.executeTargets(EclipseDefaultExecutor.java:32)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.run(InternalAntRunner.java:424)
+	at org.eclipse.ant.internal.launching.remote.InternalAntRunner.main(InternalAntRunner.java:138)
+</failure>
+  </testcase>
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="misplacedParametersDoNotEffectResponse[2]" time="0.196" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="oAuthElementsAreValid[2]" time="0.06" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="contentTypeIsCMServiceDescription[2]" time="0.119" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasAtMostOneTitle[2]" time="0.056" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasService[2]" time="0.045" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasAtMostOnePublisher[2]" time="0.341" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasValidDetails[2]" time="0.067" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="prefixDefinitionsAreValid[2]" time="0.044" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="serviceProviderHasAtMostOneOAuthElement[2]" time="0.06" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="eachServiceHasOneDomain[2]" time="0.053" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="creationFactoriesAreValid[2]" time="0.05" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="queryCapabilityBlocksAreValid[2]" time="0.047" />
+  <testcase classname="org.eclipse.lyo.testsuite.server.oslcv2tests.ServiceProviderXmlTests" name="dialogsAreValid[2]" time="0.049" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
